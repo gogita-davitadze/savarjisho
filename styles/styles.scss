@@ -1,0 +1,89 @@
+@use "index" as *;
+
+html {
+  body {
+    width: 1728px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 100px;
+
+    > header {
+      > nav {
+        display: flex;
+
+        > img {
+          width: 258px;
+          height: 117px;
+          margin: 5px 0px 0px 58px;
+        }
+        > ul {
+          margin: 35px 18px 0px 209px;
+          > li {
+            display: inline-block;
+            font-size: 33px;
+            margin-right: 39px;
+          }
+        }
+        > p {
+          margin-top: 20px;
+          width: 326px;
+          height: 50px;
+          padding: 20px 33px;
+          color: $blue;
+          font-size: 34px;
+          border: 2px solid $blue;
+          border-radius: 10px;
+        }
+      }
+    }
+    > main {
+      > img {
+        margin-top: 50px;
+      }
+      > h1 {
+        font-size: 82px;
+        color: $black;
+        margin: 70px 0px 25px 579px;
+      }
+      > h2 {
+        font-size: 46px;
+        color: $black;
+        margin: 35px 0px 93px 350px;
+        width: 1155px;
+      }
+
+      > .conteiner {
+        width: 1400px;
+        height: 948px;
+        border-radius: 50px;
+        margin-left: 137px;
+
+        > img {
+          width: 1400px;
+          height: 492px;
+          margin-bottom: 45px;
+        }
+        > h1 {
+          color: $black;
+          font-size: 60px;
+          margin: 0px 348px 10px;
+        }
+        > h2 {
+          color: $black;
+          font-size: 38px;
+          margin: 0px 0px 74px 170px;
+        }
+        > p {
+          width: 223px;
+          height: 40px;
+          color: $blue;
+          font-size: 34px;
+          padding: 17px 43px;
+          border: 2px solid $blue;
+          border-radius: 20px;
+          margin-left: 505px;
+        }
+      }
+    }
+  }
+}
